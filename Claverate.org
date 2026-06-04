@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sons of St. Peter Claver | Claverate Missionaries</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            background-color: #fef9e6;
+            color: #2c2b28;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            background: #fffef7;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+        header {
+            background: #1e2a2e;
+            color: #f7c873;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 5px solid #f7c873;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #ddd;
+        }
+        .badge {
+            background: #f7c873;
+            color: #1e2a2e;
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .content {
+            padding: 40px;
+        }
+        .mission-section {
+            background: #f5f0e1;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            border-left: 6px solid #f7c873;
+        }
+        h2 {
+            color: #1e2a2e;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+        .address-box {
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border: 1px solid #eee;
+        }
+        address {
+            font-style: normal;
+            line-height: 1.8;
+            color: #333;
+        }
+        .contact-info {
+            background: #1e2a2e;
+            color: #fef9e6;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .contact-info a {
+            color: #f7c873;
+            text-decoration: none;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        footer {
+            background: #e8e0d0;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.8rem;
+            color: #555;
+        }
+        @media (max-width: 700px) {
+            .content {
+                padding: 20px;
+            }
+            header h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Sons of St. Peter Claver</h1>
+        <p>Fathers & Brothers · Claverate Missionaries (SSPC)</p>
+        <div class="badge">Servants of the Slaves</div>
+    </header>
+
+    <div class="content">
+        <div class="mission-section">
+            <h2>⚓ Our Mission</h2>
+            <p>Following the spirituality of <strong>St. Peter Claver</strong>, we are called to be <strong>"Servants of the Slaves"</strong> — bringing hope, healing, and the Gospel of truth to the poor, the sick, the aged, and the forgotten. We go where the need is greatest, offering dignity and love in Christ's name.</p>
+        </div>
+
+        <h2>📍 Our Communities</h2>
+        <div class="address-box">
+            <strong>🏠 Main Formation House</strong><br>
+            St. Peter Claver International Missionary Academy<br>
+            Aguneze, Mbaise, Imo State, Nigeria
+        </div>
+        <div class="address-box">
+            <strong>🏠 Secondary Community</strong><br>
+            St. Peter Claver Community<br>
+            Isienu, Nsukka, Enugu State, Nigeria
+        </div>
+
+        <div class="contact-info">
+            <h2>📞 Contact & Vocation Inquiries</h2>
+            <p>📞 <strong>Phone:</strong> <a href="tel:+2349122050982">0912 205 0982</a></p>
+            <p>📧 <strong>Email:</strong> <a href="mailto:sspcfathersbrothers7@gmail.com">sspcfathersbrothers7@gmail.com</a></p>
+            <p>✉️ <strong>VD Address:</strong> Congregation of Sons of St. Peter Claver, C/O St. Peter Claver International Missionary Academy, Aguneze Mbaise, Imo State, Nigeria</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>⚓ "Slave of the Slaves Forever" — St. Peter Claver ⚓</p>
+        <p>© 2026 Sons of St. Peter Claver Congregation · Claverate Missionaries (SSPC)</p>
+    </footer>
+</div>
+</body>
+</html>
