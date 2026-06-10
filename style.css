@@ -6,11 +6,25 @@
     box-sizing: border-box;
 }
 
+/* GLOBAL BACKGROUND USING YOUR OWN IMAGE */
 body {
+    background-image: url('1781128849834.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     font-family: 'Georgia', 'Times New Roman', serif;
-    background-color: #fdf8ed;
-    color: #1e2a2e;
     line-height: 1.7;
+}
+
+/* All content boxes will have a semi-transparent background so text is readable */
+.container main, 
+.container .content-box {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 30px 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 .container {
@@ -57,15 +71,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Main Content */
-main {
-    background: white;
-    padding: 40px;
-    border-radius: 15px;
-    margin: 30px 0;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-}
-
+/* Headings */
 h2 {
     color: #1e2a2e;
     margin-bottom: 20px;
@@ -140,7 +146,7 @@ footer {
         display: inline-block;
         margin: 5px 10px;
     }
-    main {
+    .container main {
         padding: 20px;
     }
     h2 {
