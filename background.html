@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSPC Background Template</title>
+    <style>
+        /* Global reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body with your background image */
+        body {
+            background-image: url('1781128849834.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            font-family: 'Georgia', 'Times New Roman', serif;
+            min-height: 100vh;
+        }
+
+        /* Overlay to make text readable (optional - gives a slight dark layer over the image) */
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.5);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container for content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.92);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        /* Header styles */
+        header {
+            background: #1e2a2e;
+            color: #f7c873;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 15px 15px 0 0;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1rem;
+            color: #ddd;
+        }
+
+        /* Navigation */
+        nav {
+            background: #2c3e2f;
+            padding: 12px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        nav a {
+            color: #f7c873;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* Main content */
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #1e2a2e;
+            margin-bottom: 20px;
+            border-left: 5px solid #f7c873;
+            padding-left: 15px;
+        }
+
+        h3 {
+            color: #2c3e2f;
+            margin: 20px 0 10px 0;
+        }
+
+        p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: #1e2a2e;
+            color: #aaa;
+            text-align: center;
+            padding: 15px;
+            border-radius: 0 0 15px 15px;
+            margin-top: 25px;
+            font-size: 0.8rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 700px) {
+            .container {
+                padding: 15px;
+            }
+            nav a {
+                display: inline-block;
+                margin: 5px 10px;
+            }
+            header h1 {
+                font-size: 1.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <div class="container">
+        <header>
+            <h1>Congregation of Sons of St. Peter Claver</h1>
+            <p>Fathers & Brothers · SSPC (Claverate Missionaries)</p>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="mission.html">Our Mission</a>
+            <a href="formation.html">Vocations & Formation</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <main>
+            <h2>Welcome to the Claverate Missionaries</h2>
+            <p>This page serves as the background template. Your content will appear here with the background image showing through the semi-transparent overlay.</p>
+            <p>All other pages (Home, About, Mission, Formation, Contact) will share this same background image and styling.</p>
+        </main>
+
+        <footer>
+            <p>⚓ "Slave of the Slaves Forever" — St. Peter Claver ⚓</p>
+            <p>© 2026 Congregation of Sons of St. Peter Claver · SSPC (Claverate Missionaries)</p>
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
