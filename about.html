@@ -5,12 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us | SSPC</title>
     <link rel="stylesheet" href="style.css">
-                                                                                                                                                   
+    <style>
+        /* Override the container background for this page only */
+        .container main {
+            background: transparent !important;
+            backdrop-filter: none !important;
+            box-shadow: none !important;
+            padding: 20px;
+        }
+        
+        /* Make all text white */
+        body, .container, main, h2, h3, p, li, .leadership-section {
+            color: white !important;
+        }
+        
+        /* Headings with subtle gold border */
+        h2 {
+            border-left: 6px solid #f7c873;
+            padding-left: 20px;
+        }
+        
+        h3 {
+            color: #f7c873 !important;
+            margin-top: 30px;
+        }
+        
+        /* Leadership section styling */
+        .leadership-section {
+            text-align: center;
+            margin: 40px 0;
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            backdrop-filter: blur(3px);
+        }
+        
+        .leadership-section p {
+            margin: 10px 0;
+        }
+        
+        /* List items */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        li {
+            margin: 12px 0;
+            padding-left: 20px;
+            border-left: 2px solid #f7c873;
+        }
+        
+        /* Links in footer */
+        footer p, footer a {
+            color: #ccc !important;
+        }
+    </style>
 </head>
 <body>
 
 <header>
-    <h1>Congregation of Sons of St. Peterclaver</h1>
+    <h1>Congregation of Sons of St. Peter Claver</h1>
     <p>Fathers & Brothers · SSPC (Claverate Missionaries)</p>
 </header>
 
@@ -24,7 +79,8 @@
 
 <div class="container">
     <main>
-        <h2>About Our Leadership</h2>
+        <div class="leadership-section">
+            <h2>About Our Leadership</h2>
             <p><strong>Brother Kelvin Umoh</strong><br>Secretary General / Postulancy Master</p>
         </div>
         
